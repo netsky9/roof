@@ -1,0 +1,144 @@
+.title h1 {
+    font-size: 30px;
+}
+.why__option{
+	min-height: 300px;
+	background-size: cover;
+	min-width: 49%;
+	margin-bottom: 25px;
+	position: relative;
+    border-radius: 6px;
+}
+.why__title{
+	position: absolute;
+    bottom: 0;
+    width: 78%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.what-include{
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(40%,#ffc12e),to(#f08616));
+    background-image: -webkit-linear-gradient(top,#ffc12e 40%,#f08616 100%);
+    background-image: -o-linear-gradient(top,#ffc12e 40%,#f08616 100%);
+    background-image: linear-gradient(to bottom,#ffc12e 40%,#f08616 100%);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+    float: right;
+    margin: 20px;
+    color: #a44b09;
+    font-weight: 600;
+}
+.money-icon{
+	width: 30px;
+	margin-right: 10px;
+}
+.why__price{
+	color: #02de2e;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+.what-it{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #828282;
+    background-color: #fcfcfc;
+    margin: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    width: 115px;
+    text-align: right;
+}
+.what-it:before{
+	content: "?";
+	background-color: #b9b9b9;
+    padding: 1px 6px;
+    border-radius: 50px;
+    color: white;
+}
+.why__content {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.full{
+	width: 100%;
+}
+.form {
+    margin: auto;
+}
+.service-full-block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+    align-items: center;
+}
+.service-full-block-text{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #f28d1e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+	.why__option {
+    	min-width: 100%;
+    }
+}
+
+sub, sup {
+  /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
+  font-size: 75%;
+
+  /* Zero out the line-height so that it doesn't interfere with the positioning that follows */
+  line-height: 0;
+
+  /* Where the magic happens: makes all browsers position the sup/sup properly, relative to the surrounding text */
+  position: relative;
+
+  /* Note that if you're using Eric Meyer reset.css, this is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+
+sup {
+  /* Move the superscripted text up */
+  top: -0.5em;
+}
+
+sub {
+  /* Move the subscripted text down, but only half as far down as the superscript moved up */
+  bottom: -0.25em;
+}
